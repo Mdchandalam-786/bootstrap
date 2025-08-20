@@ -37,5 +37,18 @@ device screen size
                 </div>
             </div>
     </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8" style="background-color: blue;">col-sm-8</div>
+            <div class="col-lg-4" style="background-color: green;">col-lg-4</div>
+            <div class="col-xl-4" style="background-color: yellow;">col-xl-4</div>
+            <div class="col-xl-6" style="background-color: orange;">col-xl-6</div>
+            <div class="col-xl-3" style="background-color: red;">col-xl-3</div>
+        </div>
+    </div>
 </body>
 </html>
