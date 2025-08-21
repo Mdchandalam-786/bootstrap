@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Table class</title>
+</head>
+<body>
+    <table class="table">
+
+            <tr class="table-hover">
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr> 
+            <tr class="table-hover">
+                <td>Aman</td>
+                <td>30</td>
+                <td>gurugram</td>
+            </tr>
+            <tr class="table-hover">
+                <td>Sumit</td>
+                <td>25</td>
+                <td>meerut</td>
+            </tr>
+            <tr class="table-hover">
+                <td class="table-primary">Rahul</td>
+                <td>40</td>
+                <td>patna</td>
+            </tr>
+    </table>
+    
+
+
+
+<!-- table class (.table):- this class adds basic styling to the table. -->
+<!-- striped Row class (.table-striped):- this class adds zebra-striping to any table row within the table. It makes it easier to read rows of data by providing a contrasting background color for every other row. -->
+<!-- bordered Table class (.table-bordered):- this class adds borders on all sides of the table and cells. -->
+<!-- hover row class (.table-hover):- this class adds a hover effect on table rows. When you hover over a row, it will change the background color to indicate that the row is active or selected. -->
+<!-- dark Table class (.table-dark):- this class adds a dark background color to the table and its cells. -->
+<!-- borderless Table class (.table-borderless):- this class removes borders from the table and its cells. -->
+<!-- contexual classes
+
+class                        description
+
+table-primary                blue
+table-secondary              grey
+table-success                green
+table-danger                 red
+table-warning                orange
+table-info                   light blue
+table-light                  light
+table-dark                   dark -->
+</body>
+</html>
