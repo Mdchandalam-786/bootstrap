@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create spinner in bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h2 class="text-center">Creating a Spinner in Bootstrap</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="spinner-border text-success"></div>
+                <div class="spinner-border text-primary"></div>
+                <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-warning"></div>
+        </div>
+        <div class="col-xl-3">
+            <div class="spinner-border text-danger spinner-border-sm"></div>
+            <div class="spinner-border text-secondary spinner-border-sm"></div>
+            <div class="spinner-border text-light spinner-border-sm"></div>
+            <div class="spinner-border text-dark spinner-border-sm"></div>
+            <div class="col-xl-3">
+                <div class="spinner-border text-dark spinner-grow"></div>
+                <div class="spinner-border text-dark spinner-grow"></div>
+                <div class="spinner-border text-warning spinner-grow"></div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
