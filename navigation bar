@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- vertical navigation bar -->
+   
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<div class="container">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
+<!-- vertical navigation bar -->
+    <div class="navbar bg-info">notepad
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Service</a></li>
+        </ul>
+    </div>
+    <!-- horizontal navigation bar -->
+     <div class="navbar navbar-expand-sm bg-success">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Service</a></li>
+        </ul>
+     </div>
+     <!-- with logo navigation bar -->
+     <div class="navbar navbar-expand-lg bg-danger">
+        <a href="#"class="navbar-brand"><img src="1.png" width="40px"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Service</a></li>
+        </ul>
+     </div>
+     <br>
+     <!-- highlighted effect with equal space -->
+      <ul class="nav nav-pills nav-justified bg-dark">
+        <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-info">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-danger">Service</a></li>
+      </ul>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">web development</a>
+            <a class="dropdown-item" href="#">web designer</a>
+            <a class="dropdown-item" href="#">graphic designer</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">web development</a>
+            <a class="dropdown-item" href="#">web designer</a>
+            <a class="dropdown-item" href="#">graphic designer</a>
+          </div>
+        </li>
+    </li>
+    </ul>
+</body>
+</html>
