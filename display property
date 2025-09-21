@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex property</title>
+</head>
+<body>
+<h1 class="text-center">d-flex</h1>
+<div class="container mt-5 bg-danger d-flex">
+        <div class="p-4 bg-info">this is box one</div>
+        <div class="p-4 bg-danger">this is box two</div>
+        <div class="p-4 bg-success">this is box three</div>
+        <div class="p-4 bg-primary">this is box four</div>
+    </div>
+</div>
+
+    <h1 class="text-center">d-inline-flex</h1>
+    <div class="container mt-5 bg-danger">
+        <div class="bg-dark d-inline-flex">
+        <div class="p-4 bg-info">this is box one</div>
+        <div class="p-4 bg-danger">this is box two</div>
+        <div class="p-4 bg-success">this is box three</div>
+        <div class="p-4 bg-primary">this is box four</div>
+    </div>
+    </div>
+
+
+    <h1>.flex-row</h1>
+
+    <div class="d-flex p-3 flex-row bg-danger">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+    </div>
+
+    <h1>.flex-row-reverse</h1>
+
+    <div class="d-flex p-3 d-inline-flex flex-row-reverse bg-danger">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+    </div>
+
+    <h1>.flex-column</h1>
+
+    <div class="d-flex p-3 flex-column bg-danger">
+        <div class="p-4 bg-info">this is box one</div>
+        <div class="p-4 bg-danger">this is box two</div>
+        <div class="p-4 bg-success">this is box three</div>
+        <div class="p-4 bg-primary">this is box four</div>
+    </div>
+
+    <h1>.flex-column-reverse</h1>
+
+    <div class="d-flex p-3 d-inline-flex flex-column-reverse bg-danger">
+        <div class="p-4 bg-info">this is box one</div>
+        <div class="p-4 bg-danger">this is box two</div>
+        <div class="p-4 bg-success">this is box three</div>
+        <div class="p-4 bg-primary">this is box four</div>
+    </div>
+
+    <div class="container mt-3">
+    <h1 class="text-center">justify-content</h1>
+    <div class="d-flex p-3 justify-content-start bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+    </div>
+    <h1 class="text-center">justify-content-end</h1>
+    <div class="d-flex p-3 justify-content-end bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+    </div>
+    <h1 class="text-center">justify-content-center</h1>
+    <div class="d-flex p-3 justify-content-center bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+        </div>
+    <h1 class="text-center">justify-content-around</h1>
+    <div class="d-flex p-3 justify-content-around bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+        </div>
+    <h1 class="text-center">justify-content-between</h1>
+    <div class="d-flex p-3 justify-content-between bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+        </div>
+        <h1 class="text-center">justify-content-evenly</h1>
+    <div class="d-flex p-3 justify-content-evenly bg-secondary">
+        <div class="p-4 bg-info ml-1">this is box one</div>
+        <div class="p-4 bg-danger ml-1">this is box two</div>
+        <div class="p-4 bg-success ml-1">this is box three</div>
+        <div class="p-4 bg-primary ml-1">this is box four</div>
+        </div>
+</body>
+</html>
