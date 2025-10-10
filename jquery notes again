@@ -1,0 +1,81 @@
+JQuery Callback Functions
+
+•	A callback is a function you pass to another function.
+•	It gets called (executed) automatically when the main task is done.
+•	Why? jQuery operations (like hiding/showing elements or loading data) are often asynchronous—they don't block the rest of your code
+•	Without callbacks, your code might run too early and cause errors.
+With callback
+Sytnax:- $(selector).hide(speed,callback);
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide("slow", function(){
+      alert("The paragraph is now hidden");
+    });
+  });
+});
+
+WITHOUT CALLBACK
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide(1000);
+    alert("The paragraph is now hidden");
+  });
+});
+ jQuery Chaining
+ run multiple actions (methods) on the same element(s) in a single line of code. It's like a "chain" where each method returns the jQuery object, so you can keep calling more methods without selecting the element again. 
+
+WHY WE USE CHAINING?
+
+•	Efficiency: No need to repeat selectors (like $('#id')) multiple times.
+•	Readability: One line shows the full sequence of actions.
+•	Performance: jQuery handles it smoothly under the hood.
+
+BASIC SYNTAX :-
+$(selector).method1().method2().method3();
+
+jQuery DOM Manipulation
+One very important part of jQuery is the possibility to manipulate the DOM.
+jQuery comes with a bunch of DOM related methods that make it easy to access and manipulate elements and attributes.
+DOM = Document Object Model
+
+The DOM defines a standard for accessing HTML and XML documents:
+
+text(), html(), and val()
+•	text() - Sets or returns the text content of selected elements
+•	html() - Sets or returns the content of selected elements (including HTML markup)
+•	val() - Sets or returns the value of form fields.
+•	attr() :- attr() method is used to get attribute values.
+text() Method
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    alert("Text: " + $("#test").text());
+  });
+html() Method
+
+  $("#btn2").click(function(){
+    alert("HTML: " + $("#test").html());
+  });
+})
+val() Method
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Value: " + $("#test").val());
+  });
+});
+attr() Method
+$(document).ready(function(){
+  $("button").click(function(){
+    alert($("#w3s").attr("href"));
+  });
+});
+
+
+
+
+
+
+
+
+
+
